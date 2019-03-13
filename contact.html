@@ -2,242 +2,92 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact | Katie J Loyola</title>
 
-	<title>contact | Katie J Loyola</title>
 
-	<!-- bootstrap css -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	 crossorigin="anonymous">
 
-	<link rel="stylesheet" href="style.css">
+    <!-- bootstrap css -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-	<!--google fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
-	<!-- js bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-	 crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-	 crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-	 crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contactstyle.css">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <!-- js bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
 
 </head>
 
 <body>
-	<!--social contact buttons-->
-	<div class="container-fluid" id="portfolio-container">
-		<div class="row">
-			<div class=col-9></div>
-			<div class="col-3">
-				<a href="#" class="button">social</a>
-				<a href="#" class="button">contact</a>
-			</div>
-		</div>
-	</div>
-	<!--name/logo-->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-1">
-			</div>
-			<div class="col-11">
-				<h4>Katie J Loyola</h4>
-				<h7>ux design & creative direction | Salt Lake City</h7>
-			</div>
-		</div>
-	</div>
+    <!--social contact buttons-->
+    <div class="container">
+        <div class="container-fluid" id="contact-container">
+            <div class="row">
+                <div class=col-9>empty container</div>
+                <div class="col-3">
+                    <a href="#" class="button">social</a>
+                    <a href="portfolio.html" class="button">portfolio</a>
+                    <a href="#" class="button">resume</a>
+                </div>
+            </div>
+        </div>
+        <!--name/logo-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-11">
+                    <h4>Katie J Loyola</h4>
+                    <h7>ux design & creative direction | Salt Lake City</h7>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Form -->
 
-	<!--Portfolio-->
+    <section class="get-in-touch">
+        <h1 class="title">Get in touch</h1>
+        <form class="contact-form row">
+            <div class="form-field col x-50">
+                <input id="name" class="input-text js-input" type="text" required>
+                <label class="label" for="name">Name</label>
+            </div>
+            <div class="form-field col x-50">
+                <input id="email" class="input-text js-input" type="email" required>
+                <label class="label" for="email">E-mail</label>
+            </div>
+            <div class="form-field col x-100">
+                <input id="message" class="input-text js-input" type="text" required>
+                <label class="label" for="message">Message</label>
+            </div>
+            <div class="form-field col x-100 align-center">
+                <input class="submit-btn" type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
 
-	<div class="container-fluid">
-
-		<h2>Portfolio</h2>
-		<div id="myBtnContainer">
-			<button class="btn active" onclick="filterSelection('all')">all</button>
-			<button class="btn" onclick="filterSelection('front-end')"> front end</button>
-			<button class="btn" onclick="filterSelection('back-end')"> back end</button>
-			<button class="btn" onclick="filterSelection('project')"> projects</button>
-		</div>
-		<!-- Portfolio Gallery Grid -->
-		<div class="row">
-			<div class="column project">
-				<div class="content">
-					<img src="" alt="project" style="width:100%">
-					<h4>PROJECT II</h4>
-					<p>salt city paws</p>
-				</div>
-			</div>
-			<div class="column back-end">
-				<div class="content">
-					<img src="" alt="back-end" style="width:100%">
-					<h4>SEQUELIZE</h4>
-					<p>pack your bags II</p>
-				</div>
-			</div>
-			<div class="column back-end">
-				<div class="content">
-					<img src="" alt="back-end" style="width:100%">
-					<h4>HANDLEBARS</h4>
-					<p>pack your bags</p>
-				</div>
-			</div>
-			<div class="column back-end">
-				<div class="content">
-					<img src="" alt="back-end" style="width:100%">
-					<h4>EXPRESS</h4>
-					<p>recipe finder</p>
-				</div>
-			</div>
-			<div class="column back-end">
-				<div class="content">
-					<img src="" alt="back-end" style="width:100%">
-					<h4>NODE.JS + MySQL</h4>
-					<p>keyboard shopping network</p>
-				</div>
-			</div>
-			<div class="column back-end">
-				<div class="content">
-					<img src="" alt="back-end" style="width:100%">
-					<h4>AXIOS</h4>
-					<p>liribot</p>
-				</div>
-			</div>
-			<div class="column project">
-				<div class="content">
-					<img src="" alt="project" style="width:100%">
-					<h4>PROJECT I</h4>
-					<p>sno bum</p>
-				</div>
-			</div>
-			<div class="column back-end">
-				<div class="content">
-					<img src="" alt="back-end" style="width:100%">
-					<h4>FIREBASE</h4>
-					<p>train schedule</p>
-				</div>
-			</div>
-
-			<div class="column front-end">
-				<div class="content">
-					<img src="" alt="front-end" style="width:100%">
-					<h4>AJAX</h4>
-					<p>a giphy game</p>
-				</div>
-			</div>
-			<div class="column front-end">
-				<div class="content">
-					<img src="" alt="front-end" style="width:100%">
-					<h4>JAVASCRIPT + JQUERY</h4>
-					<p>trivia game</p>
-				</div>
-			</div>
-			<div class="column front-end">
-				<div class="content">
-					<img src="" alt="front-end" style="width:100%">
-					<h4>JQUERY</h4>
-					<p>crystal counter</p>
-				</div>
-			</div>
-
-			<div class="column ront-end">
-				<div class="content">
-					<img src="" alt="front-end" style="width:100%">
-					<h4>JAVASCRIPT</h4>
-					<p>word guess</p>
-				</div>
-			</div>
-			<div class="column front-end">
-				<div class="content">
-					<img src="" alt="front-end" style="width:100%">
-					<h4>CSS + BOOTSTRAP</h4>
-					<p>responsive portfolio</p>
-				</div>
-			</div>
-			<div class="column front-end">
-				<div class="content">
-					<img src="" alt="front-end" style="width:100%">
-					<h4>HTML + CSS</h4>
-					<p>building a wireframe</p>
-				</div>
-			</div>
-
-			<!-- END GRID -->
-		</div>
-
-		<!-- END MAIN -->
-	</div>
-
-	<script>
-		filterSelection("all")
-
-		function filterSelection(c) {
-			var x, i;
-			x = document.getElementsByClassName("column");
-			if (c == "all") c = "";
-			for (i = 0; i < x.length; i++) {
-				w3RemoveClass(x[i], "show");
-				if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-			}
-		}
-
-		function w3AddClass(element, name) {
-			var i, arr1, arr2;
-			arr1 = element.className.split(" ");
-			arr2 = name.split(" ");
-			for (i = 0; i < arr2.length; i++) {
-				if (arr1.indexOf(arr2[i]) == -1) {
-					element.className += " " + arr2[i];
-				}
-			}
-		}
-
-		function w3RemoveClass(element, name) {
-			var i, arr1, arr2;
-			arr1 = element.className.split(" ");
-			arr2 = name.split(" ");
-			for (i = 0; i < arr2.length; i++) {
-				while (arr1.indexOf(arr2[i]) > -1) {
-					arr1.splice(arr1.indexOf(arr2[i]), 1);
-				}
-			}
-			element.className = arr1.join(" ");
-		}
-
-
-		// Add active class to the current button (highlight it)
-		var btnContainer = document.getElementById("myBtnContainer");
-		var btns = btnContainer.getElementsByClassName("btn");
-		for (var i = 0; i < btns.length; i++) {
-			btns[i].addEventListener("click", function () {
-				var current = document.getElementsByClassName("active");
-				current[0].className = current[0].className.replace(" active", "");
-				this.className += " active";
-			});
-		}
-	</script>
-	</div>
-
-
-	<script src="portfolio.js"></script>
+    <script src="contact.js"></script>
 
 </body>
 
 <!-- Footer -->
 <footer class="page-footer font-small blue">
 
-	<!-- Copyright -->
-	<div class="footer-copyright text-center py-3">ALL WORKS ARE INTELLECTUAL PROPERTY OF KATIE LOYOLA
-	</div>
-	<!-- Copyright -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">ALL WORKS ARE INTELLECTUAL PROPERTY OF KATIE LOYOLA
+    </div>
+    <!-- Copyright -->
 </footer>
 
 </html>
-<!-- portfolio images
-<div class="post all web-des isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(738px, 0px, 0px) scale3d(1, 1, 1); opacity: 1;">
-	<img class="bnw" src="images/spacer.gif" alt="">
-	<a href="animal-planet.php" class="" title="Animal Planet">
-	<img src="./images/logos/animal-planet.png" alt="">
-	</a>
-	</div> -->

@@ -48,6 +48,7 @@ No media query for `xs` since this is the default in Bootstrap */
 #portfolio-container{
     height: 40px;
 }
+
 /* Center website */
 .main {
     max-width: 1000px;
@@ -113,5 +114,6 @@ No media query for `xs` since this is the default in Bootstrap */
     background-color: #666;
      color: white;
   }
+
 
   /* CONTACT */
