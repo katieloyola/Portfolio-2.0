@@ -10,8 +10,23 @@ body {
     background-color: rgb(161, 181, 197);
 }
 
+
+
+
 a {
     color: rgb(232, 236, 240);
+}
+
+
+
+h2 {
+    color: rgb(64, 83, 102);
+    
+}
+a:hover {
+    color:rgb(181, 191, 192); 
+    text-decoration:none; 
+    cursor:pointer;  
 }
 /* CONTACT FORM */
 .align-center {
@@ -21,8 +36,6 @@ a {
 html {
     height: 100%;
 }
-
-
 
 section{
     background-color: white;
@@ -59,7 +72,7 @@ section{
 
 .get-in-touch {
     max-width: 650px;
-    height: 400px;
+    /* height: 400px; */
     margin: 0 auto;
     position: relative;
     top: 40%;
@@ -124,7 +137,7 @@ section{
     display: inline-block;
     background-color: #000;
     color: #fff;
-    font-family: Raleway, sans-serif;
+    font-family: 'Cutive Mono', monospace;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 16px;

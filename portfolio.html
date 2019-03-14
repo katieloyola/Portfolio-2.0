@@ -8,11 +8,26 @@
 
 	<title>portfolio | Katie J Loyola</title>
 
-	<!-- bootstrap css -->
+	<!-- bootstrap css
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	 crossorigin="anonymous">
 
 	<link rel="stylesheet" href="style.css">
+
+	google fonts
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+	js bootstrap
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	 crossorigin="anonymous"></script> -->
+
+	<!-- bootstrap -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	 crossorigin="anonymous"></script>
+
 
 	<!--google fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
@@ -23,6 +38,10 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 	 crossorigin="anonymous"></script>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -30,21 +49,24 @@
 	<!--Navbar-->
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light">
-				<a class ="navbar" href="contact.html"> contact </a>
-			<a class="navbar" href="#"> social </a>
-			<a class ="navbar" href="#"> resume </a>
+				<a class="navbar" href="#"> portfolio </a>
+				<a class="navbar" href="social.html"> social </a>
+				<a class="navbar" href="contact.html"> contact </a>
+			<!-- <a class ="navbar" href="#"> resume </a> -->
 		</nav>
 	</div>
 	<!--name/logo-->
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 text-center">
-				<h2>Katie J. Loyola</h2>
+				<a class="logo" href="resume.html">
+					<h2>Katie J. Loyola</h2>
+				</a>
 				<h7>ux design & creative direction | Salt Lake City</h7>
 			</div>
 		</div>
 	</div>
-
+<br>
 	<!--Portfolio-->
 
 	<div class="container-fluid">
@@ -56,116 +78,115 @@
 			<button class="btn" onclick="filterSelection('back-end')"> back end</button>
 			<button class="btn" onclick="filterSelection('project')"> projects</button>
 		</div>
+
 		<!-- Portfolio Gallery Grid -->
 		<div class="row">
-			<div class="column back-end">
+
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 back-end">
 				<div class="content">
 					<img src="images/image_part_001.jpg" alt="back-end" style="max-width:100%">
 					<h4>MONGO</h4>
 					<p>coming soon</p>
 				</div>
 			</div>
-			<div class="column project">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 project">
 				<div class="content">
 					<img src="images/image_part_002.jpg" alt="project" style="max-width:100%">
 					<h4>PROJECT II</h4>
 					<p>salt city paws</p>
 				</div>
 			</div>
-			<div class="column back-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 back-end">
 				<div class="content">
 					<img src="images/image_part_003.jpg" alt="back-end" style="width:100%">
 					<h4>SEQUELIZE</h4>
 					<p>pack your bags II</p>
 				</div>
 			</div>
-			<div class="column back-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 back-end">
 				<div class="content">
 					<img src="images/image_part_004.jpg" alt="back-end" style="width:100%">
 					<h4>HANDLEBARS</h4>
 					<p>pack your bags</p>
 				</div>
 			</div>
-			<div class="column back-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 back-end">
 				<div class="content">
 					<img src="images/image_part_005.jpg" alt="back-end" style="width:100%">
 					<h4>EXPRESS</h4>
 					<p>recipe finder</p>
 				</div>
 			</div>
-			<div class="column back-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 back-end">
 				<div class="content">
 					<img src="images/image_part_006.jpg" alt="back-end" style="width:100%">
 					<h4>NODE.JS + MySQL</h4>
 					<p>keyboard shopping network</p>
 				</div>
 			</div>
-			<div class="column back-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 back-end">
 				<div class="content">
 					<img src="images/image_part_007.jpg" alt="back-end" style="width:100%">
 					<h4>AXIOS</h4>
 					<p>liribot</p>
 				</div>
 			</div>
-			<div class="column project">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 project">
 				<div class="content">
 					<img src="images/image_part_008.jpg" alt="project" style="width:100%">
 					<h4>PROJECT I</h4>
 					<p>sno bum</p>
 				</div>
 			</div>
-			<div class="column back-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 back-end">
 				<div class="content">
 					<img src="images/image_part_009.jpg" alt="back-end" style="width:100%">
 					<h4>FIREBASE</h4>
 					<p>train schedule</p>
 				</div>
 			</div>
-
-			<div class="column front-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 front-end">
 				<div class="content">
 					<img src="images/image_part_010.jpg" alt="front-end" style="width:100%">
 					<h3>AJAX</h3>
 					<p>a giphy game</p>
 				</div>
 			</div>
-			<div class="column front-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 front-end">
 				<div class="content">
 					<img src="images/image_part_011.jpg" alt="front-end" style="width:100%">
-					<h4>JAVASCRIPT + JQUERY</h4>
+					<h4>JS + JQUERY</h4>
 					<p>trivia game</p>
 				</div>
 			</div>
-			<div class="column front-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 front-end">
 				<div class="content">
 					<img src="images/image_part_012.jpg" alt="front-end" style="width:100%">
 					<h4>JQUERY</h4>
 					<p>crystal counter</p>
 				</div>
 			</div>
-
-			<div class="column ront-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 front-end">
 				<div class="content">
 					<img src="images/image_part_013.jpg" alt="front-end" style="width:100%">
 					<h4>JAVASCRIPT</h4>
 					<p>word guess</p>
 				</div>
 			</div>
-			<div class="column front-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 front-end">
 				<div class="content">
 					<img src="images/image_part_014.jpg" alt="front-end" style="width:100%">
 					<h4>CSS + BOOTSTRAP</h4>
 					<p>responsive portfolio</p>
 				</div>
 			</div>
-			<div class="column front-end">
+			<div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12 front-end">
 				<div class="content">
 					<img src="images/image_part_015.jpg" alt="front-end" style="width:100%">
 					<h4>HTML + CSS</h4>
 					<p>building a wireframe</p>
 				</div>
 			</div>
-
 			<!-- END GRID -->
 		</div>
 

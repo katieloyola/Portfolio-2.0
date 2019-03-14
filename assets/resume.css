@@ -1,0 +1,238 @@
+html,
+body {
+    height: 100%;
+    margin-top: 10px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 17px;
+    color: rgb(64, 83, 102);
+    background-color: rgb(161, 181, 197);
+    /* padding-left: 70px;
+    padding-right: 70px; */
+}
+
+/* navbar */
+a {
+    color: rgb(232, 236, 240);
+}
+
+a:hover {
+    color: rgb(181, 191, 192);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* resume body */
+.icon {
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+
+#main {
+    height: 100%;
+    padding: 0;
+}
+
+.item {
+    position: relative;
+    height: auto;
+    text-align: left;
+    padding: 30px;
+
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+.text {
+    position: relative;
+    height: auto;
+    text-align: left;
+    padding: 20px 50px 50px 50px;
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+.item:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.item .container {
+    /* display: inline-block; */
+    vertical-align: middle;
+    -moz-perspective: 900px;
+    -webkit-perspective: 900px;
+    -o-perspective: 900px;
+    -ms-perspective: 900px;
+    perspective: 900px;
+}
+
+.item .container> :last-child {
+    margin-bottom: 0;
+}
+
+h3 {
+    color: rgb(232, 236, 240);
+    font-size: 30px;
+    font-family: 'Cutive Mono', monospace;
+
+}
+
+h7 {
+    color: rgb(232, 236, 240);
+    font-family: 'Cutive Mono', monospace;
+}
+
+section {
+    padding: 40px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+/* .item .container .title {
+    display: inline-block;
+    color: rgb(232, 236, 240);
+    background: #fff;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    font-size: 2.5em;
+    margin: 0 0 1.5em 0;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+} */
+.fa {
+    position: absolute;
+    /* top:90%; */
+    left: 50%;
+}
+
+.fas {
+    padding-left: 30px;
+    /* padding-top: 15px; */
+    font-size: 60px;
+    display: inline-block;
+    text-align: center;
+    color: rgb(64, 83, 102);
+    line-height: 50px;
+    vertical-align: bottom;
+}
+/* span {
+    text-align: center;
+} */
+p {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 17px;
+    color: rgb(232, 236, 240);
+}
+
+.item .container p {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.item .fas {
+    text-align: center;
+
+}
+
+/* .item .container .title p {
+    left:80%;
+} */
+.item .next {
+    position: absolute;
+    bottom: 2.5em;
+    left: 50%;
+    width: 5em;
+    height: 5em;
+    margin-left: -2.5em;
+    line-height: 5em;
+    border-radius: 100%;
+    color: #fff;
+    text-decoration: none;
+    border: solid 1px #fff;
+}
+
+.item.inactive {
+    opacity: 0.25;
+}
+
+/* #header {}
+
+#header .title {
+    color: rgb(232, 236, 240);
+} */
+
+#one {
+    background-color: rgb(64, 83, 102);
+
+}
+
+#one .title {
+    color: white;
+    /* color: rgb(64, 83, 102); */
+}
+
+#two {
+    background-color: rgb(64, 83, 102);
+    text-align: center;
+
+}
+
+#two .title {
+    color: white;
+}
+
+#three {
+    background-color: rgb(64, 83, 102);
+    text-align: left;
+}
+
+#three .title {
+    color: white;
+}
+
+#four {
+    background-color: rgb(64, 83, 102);
+    text-align: center;
+}
+
+#four .title {
+    color: white;
+}
+#five {
+    background-color: rgb(64, 83, 102);
+    text-align: center;
+
+}
+
+#five .title {
+    color: white;
+}
+
+
+/* footer */
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(154, 174, 190);
+    color: rgb(40, 111, 122);
+    text-align: center;
+    font-size: 8px;
+    max-height: 8x;
+}

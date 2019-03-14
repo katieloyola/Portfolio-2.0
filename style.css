@@ -1,15 +1,30 @@
 /* ALL */
-body {
+body
+{
     margin: 20px;
     font-family: 'Cutive Mono', monospace;
     font-size: 17px;
     color: rgb(64, 83, 102);
     background-color: rgb(161, 181, 197);
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
+.logo {
+  color: rgb(64, 83, 102);
+}
 a {
     color: rgb(232, 236, 240);
 }
+
+a:hover {
+     color:rgb(181, 191, 192); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+/* a:active{
+  color: rgb(109, 193, 199);
+} */
 
 .page-footer {
     position: fixed;
@@ -25,6 +40,7 @@ a {
   /* MEDIA QUERIES + BOOTSTRAP */
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
+@media only screen and (min-width : 480px) {}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
@@ -52,7 +68,7 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Center website */
 .main {
     max-width: 1000px;
-    margin: auto;
+    margin: 0;
   }
   
   h1 {
@@ -72,7 +88,7 @@ No media query for `xs` since this is the default in Bootstrap */
   
   /* Create three equal columns that floats next to each other */
   .column {
-    float: left;
+    float: center;
     width: 33.33%;
     display: none; /* Hide columns by default */
   }
@@ -88,6 +104,9 @@ No media query for `xs` since this is the default in Bootstrap */
   .content {
     background-color: white;
     padding: 10px;
+    max-width: 300px;
+    /* max-height: 400; */
+    margin: 0;
   }
   
   /* The "show" class is added to the filtered elements */
@@ -116,4 +135,3 @@ No media query for `xs` since this is the default in Bootstrap */
   }
 
 
-  /* CONTACT */
