@@ -59,9 +59,10 @@ section{
 
 .get-in-touch {
     max-width: 650px;
+    height: 400px;
     margin: 0 auto;
     position: relative;
-    top: 50%;
+    top: 40%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -107,7 +108,7 @@ section{
     position: absolute;
     left: 20px;
     bottom: 11px;
-    font-family: Lusitana, serif;
+    font-family: 'Cutive Mono', monospace;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;

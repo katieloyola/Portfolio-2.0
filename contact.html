@@ -9,11 +9,10 @@
 
 
 
-    <!-- bootstrap css -->
+    <!-- bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="contactstyle.css">
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
@@ -24,6 +23,10 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="contactstyle.css">
 
 
 
@@ -31,37 +34,41 @@
 
 <body>
 
-  <!--Navbar-->
-	<div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar" href="#"> social </a>
-                <a class ="navbar" href="#"> resume </a>
-                <a class ="navbar" href="portfolio.html"> porfolio </a>
-            </nav>
-        </div>
-
-   	<!--name/logo-->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h2>Katie J Loyola</h2>
-				<h7>ux design & creative direction | Salt Lake City</h7>
-			</div>
-		</div>
+    <!--Navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar" href="portfolio.html"> portfolio </a>
+            <a class="navbar" href="#"> social </a>
+            <a class="navbar" href="#"> resume </a>
+        </nav>
     </div>
-    
+
+    <!--name/logo-->
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Katie J. Loyola</h2>
+                <h7>ux design & creative direction | Salt Lake City</h7>
+            </div>
+        </div>
+    </div>
+
     <!-- Contact Form -->
-    <section class="get-in-touch">
+    <section class="get-in-touch content-center">
         <h1 class="title">Get in touch</h1>
-        <form class="contact-form row">
-            <div class="form-field col x-50">
-                <input id="name" class="input-text js-input" type="text" required>
-                <label class="label" for="name">Name</label>
+        <form class="contact-form">
+            <div class="row">
+                <div class="form-field col x-50">
+                    <input id="name" class="input-text js-input" type="text" required>
+                    <label class="label" for="name">Name</label>
+                </div>
+                <div class="form-field col x-50">
+                    <input id="email" class="input-text js-input" type="email" required>
+                    <label class="label" for="email">E-mail</label>
+                </div>
             </div>
-            <div class="form-field col x-50">
-                <input id="email" class="input-text js-input" type="email" required>
-                <label class="label" for="email">E-mail</label>
-            </div>
+
             <div class="form-field col x-100">
                 <input id="message" class="input-text js-input" type="text" required>
                 <label class="label" for="message">Message</label>
