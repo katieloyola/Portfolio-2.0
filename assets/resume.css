@@ -10,6 +10,9 @@ body {
     padding-right: 70px; */
 }
 
+.logo {
+    color: rgb(64, 83, 102);
+}
 /* navbar */
 a {
     color: rgb(232, 236, 240);
@@ -20,6 +23,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 /* resume body */
 .icon {
@@ -113,14 +117,15 @@ button {
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 } */
-.fa {
+
+.arrow {
     position: absolute;
     /* top:90%; */
-    left: 50%;
+    padding-left: 50%;
 }
 
 .fas {
-    padding-left: 30px;
+    /* padding-left: 30px; */
     /* padding-top: 15px; */
     font-size: 60px;
     display: inline-block;
