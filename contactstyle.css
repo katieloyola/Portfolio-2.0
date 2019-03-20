@@ -9,12 +9,12 @@ body {
     background-color: rgb(161, 181, 197);
 }
 
-.logo {
-    color: rgb(64, 83, 102);
-}
-
 a {
     color: rgb(232, 236, 240);
+}
+
+.logo {
+    color: rgb(64, 83, 102);
 }
 
 a:hover {
@@ -22,6 +22,7 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+
 
 h2 {
     color: rgb(64, 83, 102);
