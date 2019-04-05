@@ -135,4 +135,11 @@ No media query for `xs` since this is the default in Bootstrap */
      color: white;
   }
 
+  /* PORTFOLIO LINKS*/
+  a.port {
+color: #405366;
+  }
 
+  a.port:hover {
+color: #E8ECF0;
+  }
