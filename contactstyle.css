@@ -23,6 +23,11 @@ a:hover {
     cursor:pointer;  
 }
 
+h2:hover {
+    color:rgb(181, 191, 192); 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 
 h2 {
     color: rgb(64, 83, 102);

@@ -1,0 +1,151 @@
+/* ALL */
+body
+{
+    margin: 20px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 17px;
+    color: rgb(64, 83, 102);
+    background-color: rgb(161, 181, 197);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.logo {
+  color: rgb(64, 83, 102);
+}
+
+a {
+    color: rgb(232, 236, 240);
+}
+
+a:hover {
+     color:rgb(181, 191, 192); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.logo:hover {
+    color:rgb(181, 191, 192); 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+/* a:active{
+  color: rgb(109, 193, 199);
+} */
+
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(154, 174, 190);
+    color: rgb(40, 111, 122);
+    text-align: center;
+    font-size: 10px;
+  }
+
+  /* MEDIA QUERIES + BOOTSTRAP */
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+@media only screen and (min-width : 480px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+/* SPLASH */
+#top-container{
+    height: 300px;
+}
+
+/* PORTFOLIO */
+#portfolio-container{
+    height: 40px;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: center;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    max-width: 300px;
+    /* max-height: 400; */
+    margin: 0;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #666;
+     color: white;
+  }
+
+  /* PORTFOLIO LINKS*/
+  a.port {
+color: #405366;
+  }
+
+  a.port:hover {
+color: #E8ECF0;
+  }
