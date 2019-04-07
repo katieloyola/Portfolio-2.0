@@ -4,32 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <!-- browser icon -->
-     <link rel="icon" href="images/1b665e26-a11e-473d-9b45-60f928b2ccb7.png">
-    
+    <!-- browser icon -->
+    <link rel="icon" href="images/1b665e26-a11e-473d-9b45-60f928b2ccb7.png">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>contact | Katie J Loyola</title>
 
     <!-- bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <!-- js bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"  
-    crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-   
-        <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="contactstyle.css">
 
 </head>
 
@@ -37,9 +41,9 @@
     <!--Navbar-->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar" href="portfolio.html"> portfolio </a>
-                <a class="navbar" href="social.html"> social </a>
-                <a class="navbar" href="#"> contact </a>
+            <a class="navbar" href="portfolio.html"> portfolio </a>
+            <a class="navbar" href="social.html"> social </a>
+            <a class="navbar" href="#"> contact </a>
         </nav>
     </div>
     <!--name/logo-->
@@ -47,9 +51,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
-                    <a class="logo" href="resume.html">
-                        <h2>Katie J. Loyola</h2>
-                    </a>
+                <a class="logo" href="resume.html">
+                    <h2>Katie J. Loyola</h2>
+                </a>
                 <h7>ux design & creative direction | Salt Lake City</h7>
             </div>
         </div>
@@ -58,27 +62,57 @@
     <!-- Contact Form -->
     <section class="get-in-touch content-center">
         <h1 class="title">Get in touch</h1>
-        <form class="contact-form">
+        <!-- include formspree -->
+        <form class="contact-form" action="https://formspree.io/katie.loyola@gmail.com" method="POST">
             <div class="row">
                 <div class="form-field col x-50">
-                    <input id="name" class="input-text js-input" type="text" required>
+                    <input id="name" class="input-text js-input" type="text" name="name" required>
                     <label class="label" for="name">Name</label>
                 </div>
                 <div class="form-field col x-50">
-                    <input id="email" class="input-text js-input" type="email" required>
+                    <input id="email" class="input-text js-input" type="email" name="_replyto" required>
                     <label class="label" for="email">E-mail</label>
                 </div>
             </div>
 
             <div class="form-field col x-100">
-                <input id="message" class="input-text js-input" type="text" required>
+                <input id="message" class="input-text js-input" type="text" name="message" required>
                 <label class="label" for="message">Message</label>
             </div>
             <div class="form-field col x-100 align-center">
-                    <form method="post" action="mailto:katie.loyola@gmail.com" >
-                            <input class="submit-btn" type="submit" value="Send Email" /> 
-                            </form>
+                <form method="post">
+                    <input class="submit-btn" type="submit" value="Send Email" />
+                </form>
             </div>
+        </form>
+    </section>
+    <br>
+    <!-- FORMSPREE TEST -->
+    <section class="get-in-touch content-center">
+        <h1 class="title">Get in touch</h1>
+        <form class="contact-form" method="POST" action="https://formspree.io/katie.loyola@gmail.com">
+            <div class="row">
+                <!-- name -->
+                <div class="form-field col x-50">
+                    <input type="text" name="name" id="name" class="input-text js-input" required>
+                    <label class="label" for="name">Name</label>
+                </div>
+                <!-- email -->
+                <div class="form-field col x-50">
+                    <input type="email" name="email" id="email" class="input-text js-input" required>
+                    <label class="label" for="email">E-mail</label>
+                </div>
+            </div>
+            <!-- message -->
+            <div class="form-field col x-100">
+                    <input type="message" name="message" id="message" class="input-text js-input" required>
+                    <label class="label" for="message">Message</label>
+                    <!-- <textarea></textarea> -->
+                    <!-- <textarea name="message"></textarea> -->
+            </div>
+            <!-- send button -->
+            <div class="form-field col x-100 align-center">
+                    <button type="submit" class="submit-btn">Send Test</button>
         </form>
     </section>
 
