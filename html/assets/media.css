@@ -1,0 +1,423 @@
+
+.fa {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    /* margin: 15px 3px; */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px !important;
+  }
+/*** Widget Social ***/
+
+footer.bg-dark .social-btns .social-btn-roll {
+    color: #fff;
+    border-color: #4d5154;
+}
+
+footer.bg-dark .social-btns .social-btn-roll:hover {
+    border-color: transparent;
+}
+
+/*********** 6.3 Buttons *************/
+
+.btn {
+    outline: none;
+    padding: 0 15px;
+    position: relative;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.btn.active,
+.btn:active {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.btn:hover {
+    color: inherit;
+}
+
+.btn:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn i {
+    line-height: 35px;
+    font-size: 10px;
+    padding-left: 3px;
+}
+
+.btn-main:hover,
+.btn-second:hover {
+    -webkit-filter: brightness(113%);
+    filter: brightness(113%);
+    color: #fff;
+}
+
+
+/* button effect */
+
+.btn-effect {
+    overflow: hidden;
+}
+
+.ripple {
+    width: 0;
+    height: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    position: absolute;
+    opacity: 1;
+}
+
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+
+@keyframes rippleDrop {
+    100% {
+        -webkit-transform: scale(2.5);
+        -moz-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+
+
+/* Btn Round */
+
+.btn-round {
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+}
+
+
+/*** ====== 6.3.1 Button Colors ====== ***/
+
+.btn-main {
+    color: #fff;
+}
+
+.btn-second {
+    color: #fff;
+}
+
+.btn-blue {
+    background: #29b1fd;
+}
+
+.btn-blue:hover {
+    background: #66c9ff;
+}
+
+.btn-green {
+    background: #2ecc71;
+}
+
+.btn-green:hover {
+    background: #4dd977;
+}
+
+.btn-purple {
+    background: #443088;
+}
+
+.btn-purple:hover {
+    background: #5c48a0;
+}
+
+.btn-orange {
+    background: #e69d29;
+}
+
+.btn-orange:hover {
+    background: #ecaf4f;
+}
+
+.btn-red {
+    background: #db6131;
+}
+
+.btn-red:hover {
+    background: #dc7f5a;
+}
+
+.btn-dark {
+    background: #0c112a;
+}
+
+.btn-dark:hover {
+    background: #293053;
+}
+
+
+/*** ====== 6.3.2 Social Media Buttons ====== ***/
+
+ul.social-btns {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.social-btns li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.social-btn-roll {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #3b5998;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -ms-transition: background 0.3s ease;
+    -o-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+
+.social-btn-roll:hover .social-btn-roll-icons {
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.social-btn-roll:hover .social-btn-roll-icon {
+    color: #f6f6f6;
+}
+
+.social-btn-roll-icons {
+    width: 200%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.social-btn-roll-icon {
+    width: 50%;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+/*** Social Media Button Colors ***/
+
+.social-btn-roll.facebook {
+    border-color: #3b5998;
+    color: #3b5998;
+}
+
+.social-btn-roll.facebook:hover {
+    background: #3b5998;
+}
+
+.social-btn-roll.twitter {
+    border-color: #4cc4f2;
+    color: #4cc4f2;
+}
+
+.social-btn-roll.twitter:hover {
+    background: #4cc4f2;
+}
+
+.social-btn-roll.google-plus {
+    border-color: #dd4b39;
+    color: #dd4b39;
+}
+
+.social-btn-roll.google-plus:hover {
+    background: #dd4b39;
+}
+
+.social-btn-roll.instagram {
+    border-color: #9b6954;
+    color: #9b6954;
+}
+
+.social-btn-roll.instagram:hover {
+    background: #9b6954;
+}
+
+.social-btn-roll.linkedin {
+    border-color: #0077b5;
+    color: #0077b5;
+}
+
+.social-btn-roll.linkedin:hover {
+    background: #0077b5;
+}
+
+.social-btn-roll.rss {
+    border-color: #ffa500;
+    color: #ffa500;
+}
+
+.social-btn-roll.rss:hover {
+    background: #ffa500;
+}
+
+.social-btn-roll.pinterest {
+    border-color: #cb2027;
+    color: #cb2027;
+}
+
+.social-btn-roll.pinterest:hover {
+    background: #cb2027;
+}
+
+.social-btn-roll.tumblr {
+    border-color: #32506d;
+    color: #32506d;
+}
+
+.social-btn-roll.tumblr:hover {
+    background: #32506d;
+}
+
+.social-btn-roll.github {
+    border-color: #171515;
+    color: #171515;
+}
+
+.social-btn-roll.github:hover {
+    background: #171515;
+}
+
+.social-btn-roll.dribbble {
+    border-color: #ec4a89;
+    color: #ec4a89;
+}
+
+.social-btn-roll.dribbble:hover {
+    background: #ec4a89;
+}
+
+.social-btn-roll.wordpress {
+    border-color: #16a0ce;
+    color: #16a0ce;
+}
+
+.social-btn-roll.wordpress:hover {
+    background: #16a0ce;
+}
+
+.social-btn-roll.amazon {
+    border-color: #ffa500;
+    color: #ffa500;
+}
+
+.social-btn-roll.amazon:hover {
+    background: #ffa500;
+}
+
+.social-btn-roll.dropbox {
+    border-color: #007ee5;
+    color: #007ee5;
+}
+
+.social-btn-roll.dropbox:hover {
+    background: #007ee5;
+}
+
+.social-btn-roll.paypal {
+    border-color: #03268c;
+    color: #03268c;
+}
+
+.social-btn-roll.paypal:hover {
+    background: #03268c;
+}
+
+.social-btn-roll.yahoo {
+    border-color: #420294;
+    color: #420294;
+}
+
+.social-btn-roll.yahoo:hover {
+    background: #420294;
+}
+
+.social-btn-roll.flickr {
+    border-color: #fd0d7e;
+    color: #fd0d7e;
+}
+
+.social-btn-roll.flickr:hover {
+    background: #fd0d7e;
+}
+
+.social-btn-roll.reddit {
+    border-color: #ff4006;
+    color: #ff4006;
+}
+
+.social-btn-roll.reddit:hover {
+    background: #ff4006;
+}
+
+.social-btn-roll.vimeo {
+    border-color: #63b4e4;
+    color: #63b4e4;
+}
+
+.social-btn-roll.vimeo:hover {
+    background: #63b4e4;
+}
+
+.social-btn-roll.spotify {
+    border-color: #1dd069;
+    color: #1dd069;
+}
+
+.social-btn-roll.spotify:hover {
+    background: #1dd069;
+}
+
+.social-btn-roll.youtube {
+    border-color: #e62117;
+    color: #e62117;
+}
+
+.social-btn-roll.youtube:hover {
+    background: #e62117;
+}
