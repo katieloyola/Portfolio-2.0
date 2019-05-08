@@ -41,10 +41,18 @@ a:hover {
   /* MEDIA QUERIES + BOOTSTRAP */
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
-@media only screen and (min-width : 480px) {}
+@media (max-width : 480px) {
+  .col-xs-6 {
+    width: 100% !important;
+  }
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (max-width: 576px) {
+  .col-xs-6 {
+    width: 100% !important;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
