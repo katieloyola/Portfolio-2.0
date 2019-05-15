@@ -153,6 +153,7 @@ p {
 
 .item .fas {
     text-align: center;
+    color: rgb(232, 236, 240);
 
 }
 
@@ -246,7 +247,7 @@ p {
 }
 
 /* SOCIAL  */
-.fa {
+/* .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -277,4 +278,4 @@ p {
   .fa-instagram {
     background: #125688;
     color: white;
-  }
+  } */
