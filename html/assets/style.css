@@ -6,8 +6,8 @@ body
     font-size: 17px;
     color: rgb(64, 83, 102);
     background-color: rgb(161, 181, 197);
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .logo {
@@ -55,7 +55,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (max-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}

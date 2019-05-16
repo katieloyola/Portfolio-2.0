@@ -1,0 +1,43 @@
+/* SPLASH */
+#top-container{
+    height: 300px;
+}
+/* ALL */
+body
+{
+    margin: 20px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 17px;
+    color: rgb(64, 83, 102);
+    background-color: rgb(161, 181, 197);
+    padding-left: 1px;
+    padding-right: 10px;
+}
+
+.logo {
+  color: rgb(64, 83, 102);
+}
+
+a {
+    color: rgb(232, 236, 240);
+}
+
+a:hover {
+     color:rgb(181, 191, 192); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+/* a:active{
+  color: rgb(109, 193, 199);
+} */
+
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(154, 174, 190);
+    color: rgb(40, 111, 122);
+    text-align: center;
+    font-size: 10px;
+  }
