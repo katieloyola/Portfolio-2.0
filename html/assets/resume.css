@@ -6,8 +6,6 @@ body {
     font-size: 17px;
     color: rgb(64, 83, 102);
     background-color: rgb(161, 181, 197);
-    /* padding-left: 70px;
-    padding-right: 70px; */
 }
 
 .logo {
@@ -25,7 +23,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
 
 /* resume body */
 .icon {
@@ -245,37 +242,3 @@ p {
     font-size: 8px;
     max-height: 8x;
 }
-
-/* SOCIAL  */
-/* .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 30%;
-  }
-
-  .fa:hover {
-    opacity: 0.7;
-}
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  .fa-github {
-    background:black;
-    color: white;
-  }
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  } */

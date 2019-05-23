@@ -45,17 +45,20 @@ No media query for `xs` since this is the default in Bootstrap */
   .col-xs-6 {
     width: 100% !important;
   }
+ 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-  .col-xs-6 {
-    width: 100% !important;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  .social-btn-roll-icons {
+    display: flex;
+    align-items: center;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
