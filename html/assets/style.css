@@ -77,6 +77,17 @@ No media query for `xs` since this is the default in Bootstrap */
     height: 40px;
 }
 
+/*images*/
+img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
 /* Center website */
 .main {
     max-width: 1000px;
