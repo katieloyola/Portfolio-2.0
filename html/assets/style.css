@@ -79,7 +79,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /*images*/
 img {
-  filter: gray; /* IE6-9 */
+  filter: rgb(64, 83, 102); /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
